@@ -62,8 +62,11 @@
           </div>
         </div>
         <!--Property Binding-->
+        <!--Event Binding-->
         <input type="text" [value]="clientName" />
         <input type="text" [value]="clientEmail" />
+        <button (click)="submitButton($event)">Submit</button>
+        <button (click)="clearButton($event)">Clear</button>
       </div>
       <div class="col-md-4">
         <div class="card card-education">
