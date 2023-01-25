@@ -9,4 +9,6 @@ import { Component } from '@angular/core';
 export class AboutComponent {
   appName = ' Carl D. Gegante ';
   appEmail = 'cdgegante@gmail.com';
+  myColor = 'red';
+  MyOtherColor = 'Violet';
 }

@@ -20,12 +20,18 @@
           <div class="card-body">
             <div class="card-category-box">
               <div class="card-category">
-                <h6 class="category">kristennz.altares@gmail.com</h6>
+                <!--Class Binding-->
+                <h6 class="category" [class.red]="notappliedWDClass">
+                  kristennz.altares@gmail.com
+                </h6>
                 <h6 class="category">+63</h6>
               </div>
             </div>
+            <!--Class Binding-->
             <h3 class="card-title">
-              <a href="education-single.html">Dr. Kristennz Mae Altares</a>
+              <a href="education-single.html" [class]="appliedWDClass"
+                >Dr. Kristennz Mae Altares</a
+              >
             </h3>
           </div>
         </div>
@@ -40,15 +46,24 @@
           <div class="card-body">
             <div class="card-category-box">
               <div class="card-category">
-                <h6 class="category">liongsoneivanclaude@gmail.com</h6>
+                <!--Class Binding-->
+                <h6 class="category" [class.red]="notappliedWDClass">
+                  liongsoneivanclaude@gmail.com
+                </h6>
                 <h6 class="category">+63</h6>
               </div>
             </div>
+            <!--Class Binding-->
             <h3 class="card-title">
-              <a href="https://www.hau.edu.ph">Eivan Claude Liongson</a>
+              <a href="https://www.hau.edu.ph" [class]="appliedWDClass"
+                >Eivan Claude Liongson</a
+              >
             </h3>
           </div>
         </div>
+        <!--Property Binding-->
+        <input type="text" [value]="clientName" />
+        <input type="text" [value]="clientEmail" />
       </div>
       <div class="col-md-4">
         <div class="card card-education">
@@ -60,12 +75,18 @@
           <div class="card-body">
             <div class="card-category-box">
               <div class="card-category">
-                <h6 class="category">aaroncastro486@gmail.com</h6>
+                <!--Class Binding-->
+                <h6 class="category" [class.red]="notappliedWDClass">
+                  aaroncastro486@gmail.com
+                </h6>
                 <h6 class="category">+63</h6>
               </div>
             </div>
+            <!--Class Binding-->
             <h3 class="card-title">
-              <a href="https://www.hau.edu.ph">Aaron Joshua Castro</a>
+              <a href="https://www.hau.edu.ph" [class]="appliedWDClass"
+                >Aaron Joshua Castro</a
+              >
             </h3>
           </div>
         </div>
